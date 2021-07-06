@@ -1,6 +1,6 @@
 import 'calculator.dart';
 
 void main(List<String> arguments) {
-  int result = add(4, 4);
+  int result = add(10, 10);
   print(result);
 }
