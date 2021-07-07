@@ -13,7 +13,11 @@ int mul(int a, int b) {
   return result;
 }
 
-int div(int a, int b) {
-  int result = a ~/ b;
+double div(double a, double b) {
+  double result = a / b;
+  return result;
+}
+int rem(int a, int b) {
+  int result = a % b;
   return result;
 }
